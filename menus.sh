@@ -1,0 +1,200 @@
+#! /bin/bash
+
+
+function ig()
+{
+		echo " [01] Nmap"
+		echo " [02] Red Hawk"
+		echo " [03] D-Tect"
+		echo " [04] sqlmap"
+		echo " [05] Infoga"
+		echo " [06] ReconDog"
+		echo " [07] AndroZenmap"
+		echo " [08] sqlmate"
+		echo " [09] AstraNmap"
+		echo " [10] WTF"
+		echo " [11] Easymap"
+		echo " [12] BlackBox"
+		echo " [13] XD3v"
+		echo " [14] Crips"
+		echo " [15] SIR"
+		echo " [16] EvilURL"
+		echo " [17] Striker"
+		echo " [18] Xshell"
+		echo " [19] OWScan"
+		echo " [20] OSIF"
+		echo " [21] Devploit"
+		echo " [22] Namechk"
+		echo " [23] AUXILE"
+		echo " [24] inther"
+		echo " [25] GINF"
+		echo " [26] GPS Tracking"
+		echo " [27] ASU"
+		echo " [00] Back to main menu"
+}
+
+function vs()
+{
+		echo " [01] Nmap"
+		echo " [02] AndroZenmap"
+		echo " [03] AstraNmap"
+		echo " [04] Easymap"
+		echo " [05] Red Hawk"
+		echo " [06] D-Tect"
+		echo " [07] Damn Small SQLi Scanner"
+		echo " [08] SQLiv"
+		echo " [09] sqlmap"
+		echo " [10] sqlscan"
+		echo " [11] Wordpresscan"
+		echo " [12] WPScan"
+		echo " [13] sqlmate"
+		echo " [14] wordpresscan"
+		echo " [15] WTF"
+		echo " [16] Rang3r"
+		echo " [17] Striker"
+		echo " [18] Routersploit"
+		echo " [19] Xshell"
+		echo " [20] SH33LL"
+		echo " [21] BlackBox"
+		echo " [22] XAttacker"
+		echo " [23] OWScan"
+		echo " [00] Back to main menu"
+}
+
+function st()
+{
+		echo " [01] Torshammer"
+		echo " [02] Slowloris"
+		echo " [03] Fl00d & Fl00d2"
+		echo " [04] GoldenEye"
+		echo " [05] Xerxes"
+		echo " [06] Planetwork-DDOS"
+		echo " [07] Hydra"
+		echo " [08] Black Hydra"
+		echo " [09] Xshell"
+		echo " [10] santet-online"
+		echo " [00] Back to main menu"
+}
+
+function pa()
+{
+		echo " [01] Hydra"
+		echo " [02] FMBrute"
+		echo " [03] HashID"
+		echo " [04] Facebook Brute Force 3"
+		echo " [05] Black Hydra"
+		echo " [06] Hash Buster"
+		echo " [07] FBBrute"
+		echo " [08] Cupp"
+		echo " [09] InstaHack"
+		echo " [10] Indonesian Wordlist"
+		echo " [11] Xshell"
+		echo " [12] Social-Engineering"
+		echo " [13] BlackBox"
+		echo " [14] Hashzer"
+		echo " [15] Hasher"
+		echo " [16] Hash-Generator"
+		echo " [17] nk26"
+		echo " [18] Hasherdotid"
+		echo " [19] Crunch"
+		echo " [20] Hashcat"
+		echo " [21] ASU"
+		echo " [00] Back to main menu"
+}
+
+function wh()
+{
+		echo " [01] sqlmap"
+		echo " [02] Webdav"
+		echo " [03] xGans"
+		echo " [04] Webdav Mass Exploit"
+		echo " [05] WPSploit"
+		echo " [06] sqldump"
+		echo " [07] Websploit"
+		echo " [08] sqlmate"
+		echo " [09] sqlokmed"
+		echo " [10] zones"
+		echo " [11] Xshell"
+		echo " [12] SH33LL"
+		echo " [13] XAttacker"
+		echo " [14] XSStrike"
+		echo " [15] Breacher"
+		echo " [16] OWScan"
+		echo " [17] ko-dork"
+		echo " [18] ApSca"
+		echo " [19] amox"
+		echo " [20] FaDe"
+		echo " [21] AUXILE"
+		echo " [22] HPB"
+		echo " [23] inther"
+		echo " [24] Atlas"
+		echo " [00] Back to main menu"
+}
+
+function et()
+{
+		echo " 01] Metasploit"
+		echo " [02] commix"
+		echo " [03] sqlmap"
+		echo " [04] Brutal"
+		echo " [05] A-Rat"
+		echo " [06] WPSploit"  
+		echo " [07] Websploit"
+		echo " [08] Routersploit"
+		echo " [09] BlackBox"
+		echo " [10] XAttacker"
+		echo " [11] TXTool"
+		echo " [12] MSF-Pg"
+		echo " [13] Binary Exploitation"
+		echo " [14] ASU"
+		echo " [00] Back to main menu"
+}
+
+function sands()
+{
+		echo " [01] KnockMail"
+		echo " [02] Spammer-Grab"
+		echo " [03] Hac"
+		echo " [04] Spammer-Email"
+		echo " [05] SocialFish"
+		echo " [06] santet-online"
+		echo " [07] SpazSMS"
+		echo " [08] LiteOTP"
+		echo " [09] ASU"
+		echo " [00] Back to main menu"
+}
+
+function other()
+{
+		echo " [01] SpiderBot"
+		echo " [02] Ngrok"
+		echo " [03] Sudo"
+		echo " [04] Ubuntu"
+		echo " [05] Fedora"
+		echo " [06] Kali Nethunter"
+		echo " [07] VCRT"
+		echo " [08] E-Code"
+		echo " [09] Termux-Styling"
+		echo " [10] PassGen"
+		echo " [11] xl-py"
+		echo " [12] BeanShell"
+		echo " [13] WebConn"
+		echo " [14] Crunch"
+		echo " [15] Textr"
+		echo " [16] AutoVisitor"
+		echo " [00] Back to main menu"
+}
+
+function menu()
+{
+	echo " [01] Information Gathering"
+	echo " [02] Vulnerability Scanner"
+	echo " [03] Stress Testing"
+	echo " [04] Password Attacks"
+	echo " [05] Web Hacking"
+	echo " [06] Exploitation Tools"
+	echo " [07] Sniffing & Spoofing"
+	echo " [08] Other"
+	echo " [00] Exit the Lazymux"
+
+}
